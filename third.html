@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>OnlineShopping</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="heading">
+                <h1><span>A</span>s<span>A</span>r<span>A</span></h1>
+            </div>
+
+            <div class="navlink">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <i class="fa fa-search" id="searchBtn"></i>
+                <!-- <i class="fa fa-user" id="userBtn"></i> -->
+                <i class="fa fa-bars" id="menuBtn"></i>
+            </div>
+        </nav>
+        <!-- <img src="./images/sandal-1.png" alt=""> -->
+    </header>
+    <div class="searchContainer">
+        <input type="serach" name="" placeholder="Search Here...">
+        <button>Search</button>
+    </div>
+    <div class="firstContainer">
+        <button onclick="history.back()" class="backBtn">⋘</button>
+        <div class="fContainer">
+            <div class="Left">
+                <div class="bigImg">
+                    <img src="./images/shoes-5.png" alt="" id="bigimg">
+                </div>
+                <div class="smallImg">
+                    <!-- <img src="./images/shirt-2.png" alt="" class="ims"> -->
+                    <img src="./images/shoes-5.png" alt="" class="ims">
+                    <img src="./images/shoes8.png" alt="" class="ims">
+                    <img src="./images/shoes-10.png" alt="" class="ims">
+                    <img src="./images/shoes9.png" alt="" class="ims">
+                </div>
+            </div>
+            <div class="Right">
+                <h1>Bata Shoes</h1>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <!-- <div class="selectSize"> -->
+                <select name="size" id="size">
+                    <option value="">Select Size</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <input type="number" placeholder="1">
+                <!-- </div> -->
+                <div class="btn">
+                    <button>Add To Card</button>
+                </div>
+                <div class="details">
+                    <h1>Product Details</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione ex explicabo ad tempora
+                        optio quasi consectetur quis consequuntur labore dolorem autem quam dolorum, fugiat placeat.
+                        Reiciendis commodi quo dolores odio, vero mollitia at ipsa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>

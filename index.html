@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./images/a-logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>OnlineShopping</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="heading">
+                <h1><span>A</span>s<span>A</span>r<span>A</span></h1>
+            </div>
+
+            <div class="navlink">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#feature">Shop</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#footer">About</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <i class="fa fa-search" id="searchBtn"></i>
+                <!-- <i class="fa fa-user" id="userBtn"></i> -->
+                <i class="fa fa-bars" id="menuBtn"></i>
+            </div>
+        </nav>
+        <!-- <img src="./images/sandal-1.png" alt=""> -->
+    </header>
+    <div class="searchContainer">
+        <input type="serach" name="" placeholder="Search Here...">
+        <button>Search</button>
+    </div>
+    <div class="loginConntainer">
+        <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="password" placeholder="Enter Password Here">
+            <button class="btnn"> Login</button>
+            <h3 class="ha">OR </h3>
+            <h3> Sign up </h3>
+            <div class="sighninIcon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-google"></ion-icon>
+            </div>
+
+        </div>
+    </div>
+    <div class="bigContainer" id="bigContainer">
+
+
+        <section class="offer">
+            <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                <div class="carousel-cell">
+
+                    <div class="container">
+                        <div class="top">
+                            <h1>HUGE DISCOUNT</h1>
+                            <h2>On Your Favourite <br> Product</h2>
+                        </div>
+                        <div class="bottom">
+                            <div class="discount">
+                                <img src="./images/Sbi_logo_PNG1.png" alt="">
+                                <h2>10% Instant Discount* <p>On SBI Bank Cards & EMI Transaction</p>
+                                </h2>
+                            </div>
+                            <button>Shop Now →</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="container1">
+                        <div class="top">
+                            <div class="left">
+                                <a href="first.html"> <img src="./images/t-shirt-4.png" alt=""></a>
+                            </div>
+                            <div class="right">
+                                <h2>T-SHIRT</h2>
+                                <h2>Helmont, Tripr, Eyebogler & more</h2>
+                                <h3>Upto 40% Off</h3>
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <img src="./images/Sbi_logo_PNG1.png" alt="">
+                            <h2>10% Instant Discount* <p>On SBI Bank Cards & EMI Transaction</p>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="container2">
+                        <div class="top">
+                            <div class="left">
+                                <a href="second.html"><img src="./images/sandal-1.png" alt=""></a>
+                            </div>
+                            <div class="right">
+                                <h2>L-Sandal</h2>
+                                <h2>Sanaya, Sppif, Crocs & more</h2>
+                                <h3>Upto 40% Off</h3>
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <img src="./images/Sbi_logo_PNG1.png" alt="">
+                            <h2>10% Instant Discount* <p>On SBI Bank Cards & EMI Transaction</p>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="container3">
+                        <div class="top">
+                            <div class="left">
+                                <a href="third.html"> <img src="./images/shoes-2.png" alt=""></a>
+                            </div>
+                            <div class="right">
+                                <h2>Shoes</h2>
+                                <h2>Bata, Asian, Campus & more</h2>
+                                <h3>Upto 40% Off</h3>
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <img src="./images/Sbi_logo_PNG1.png" alt="">
+                            <h2>10% Instant Discount* <p>On SBI Bank Cards & EMI Transaction</p>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="container4">
+                        <div class="top">
+                            <div class="left">
+                                <a href="fourth.html"><img src="./images/jeans-1.png" alt=""></a>
+                            </div>
+                            <div class="right">
+                                <h2>Jeans</h2>
+                                <h2>United Denim, Lzard, Levi's & more</h2>
+                                <h3>Upto 40% Off</h3>
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <img src="./images/Sbi_logo_PNG1.png" alt="">
+                            <h2>10% Instant Discount* <p>On SBI Bank Cards & EMI Transaction</p>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature" id="feature">
+            <h1>FEATURED PRODUCT</h1>
+            <div class="boxContainer">
+                <div class="box">
+                    <div class="image">
+                        <a href="first.html"> <img src="./images/t-shirt3.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Eyebogler T-shirt</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="second.html"> <img src="./images/sandal-5.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Sanaya Ladies Sandal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="third.html"> <img src="./images/shoes-5.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Bata Shoes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="fourth.html"> <img src="./images/jeans-3.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>United Denim Jeans</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="fifth.html"> <img src="./images/jacket-1.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>BlackBerrys Blazer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="six.html"> <img src="./images/shirt-3.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Dennis Lingo Shirt</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="seven.html"> <img src="./images/saree-1.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Royora Sarees</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="eight.html"> <img src="./images/hat-1.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Zacharias Hat</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="nine.html"> <img src="./images/watch-5.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Lois Caron Watch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <a href="ten.html"> <img src="./images/wall-watch-1.png" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <h3>Ajanta Wall Clock</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ad">
+            <div class="adContainer">
+                <h2>Spring/Summer</h2>
+                <h1>Upcomming Season</h1>
+                <h3>The Best Classic Dress Is On Sale at AsArA</h3>
+                <button>Collection</button>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1>CONTACT</h1>
+            <div class="row">
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="Number">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="Send Message">
+                </form>
+
+            </div>
+        </section>
+
+        <section class="footer" id="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est
+                        accusantium voluptas enim nemo facilis sit debitis.</p>
+                </div>
+                <!-- <div class="box">
+                    <h3>Branch Locations</h3>
+                    <a href="#">India</a>
+                    <a href="#">USA</a>
+                    <a href="#">Japan</a>
+                    <a href="#">France</a>
+                </div> -->
+
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100035118105632">Facebook</a>
+                    <a href="http://www.instagram.com/israrkhan911">Instagram</a>
+                    <a href="http://www.Twitter.com/@ISRARKH55535054">Twitter</a>
+                    <a href="https://github.com/khanisrar">GitHub</a>
+                </div>
+
+            </div>
+            <div class="portfolio">
+                <h3>My Portfolio Website</h3>
+                <a href="https://vigilant-hamilton-dbcaf6.netlify.app">Live</a>
+            </div>
+
+            <h1 class="credit"> Created By <span> Mr. Israr Khan </span> | All Rights Reserved! </h1>
+
+        </section>
+
+    </div>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>
